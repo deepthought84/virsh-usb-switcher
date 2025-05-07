@@ -6,7 +6,7 @@ Continously checks for state change (is display attached or detached?) and attac
 
 ## Usage
 
-Create USB devices from template.xml with devices ids, if you have multiple Displays maybe update display_connected function with matching xrandr Line.
+Create USB devices from template.xml with devices ids from lsusb, if you have multiple Displays maybe update display_connected function with matching xrandr Line.
 
 Put each devices created as xml in devices-Variable (without .xml suffix).
 
